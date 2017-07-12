@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="eldamo">
+  <database-model serializer="dbm" rdbms="SQLITE" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="main">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <table id="3" parent="2" name="CAT"/>
+    <table id="4" parent="2" name="DOC"/>
+    <table id="5" parent="2" name="ENTRY"/>
+    <table id="6" parent="2" name="ENTRY_DOC"/>
+    <table id="7" parent="2" name="EXAMPLE"/>
+    <table id="8" parent="2" name="FORM"/>
+    <table id="9" parent="2" name="GLOSS"/>
+    <table id="10" parent="2" name="GRAMMAR"/>
+    <table id="11" parent="2" name="LANGUAGE"/>
+    <table id="12" parent="2" name="LANGUAGE_DOC"/>
+    <table id="13" parent="2" name="LINKED"/>
+    <table id="14" parent="2" name="LINKED_FORM"/>
+    <table id="15" parent="2" name="LINKED_GRAMMAR"/>
+    <table id="16" parent="2" name="REF"/>
+    <table id="17" parent="2" name="RULE"/>
+    <table id="18" parent="2" name="RULESEQUENCE"/>
+    <table id="19" parent="2" name="SOURCE"/>
+    <table id="20" parent="2" name="SOURCE_DOC"/>
+    <table id="21" parent="2" name="TYPE"/>
+    <table id="22" parent="2" name="sqlite_master"/>
+    <table id="23" parent="2" name="user"/>
+    <column id="24" parent="3" name="ID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="3" name="LABEL">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="26" parent="3" name="PARENT_ID">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <key id="27" parent="3">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="28" parent="3">
+      <ColNames>PARENT_ID</ColNames>
+      <RefTableName>CAT</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="29" parent="4" name="ID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="4" name="TXT">
+      <Position>1</Position>
+      <DataType>varchar(4000)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="4" name="DOCTYPE_ID">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <key id="32" parent="4">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="33" parent="4">
+      <ColNames>DOCTYPE_ID</ColNames>
+      <RefTableName>TYPE</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="34" parent="5" name="ID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="5" name="FORM_ID">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="5" name="LANGUAGE_ID">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="5" name="GLOSS_ID">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="38" parent="5" name="CAT_ID">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="39" parent="5" name="RULE_FORM_ID">
+      <Position>5</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="40" parent="5" name="FROM_FORM_ID">
+      <Position>6</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="41" parent="5" name="STEM_FORM_ID">
+      <Position>7</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="42" parent="5" name="TENGWAR">
+      <Position>8</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="43" parent="5" name="MARK">
+      <Position>9</Position>
+      <DataType>varchar(10)|0</DataType>
+    </column>
+    <column id="44" parent="5" name="ELDAMO_PAGEID">
+      <Position>10</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="45" parent="5" name="ORDERFIELD">
+      <Position>11</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="46" parent="5" name="ORTHO_FORM_ID">
+      <Position>12</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="47" parent="5" name="PARENT_ID">
+      <Position>13</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="48" parent="5" name="ORDERING">
+      <Position>14</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="49" parent="5" name="ENTRYTYPE_ID">
+      <Position>15</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <key id="50" parent="5">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="51" parent="5">
+      <ColNames>FORM_ID</ColNames>
+      <RefTableName>FORM</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="52" parent="5">
+      <ColNames>LANGUAGE_ID</ColNames>
+      <RefTableName>LANGUAGE</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="53" parent="5">
+      <ColNames>GLOSS_ID</ColNames>
+      <RefTableName>GLOSS</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="54" parent="5">
+      <ColNames>CAT_ID</ColNames>
+      <RefTableName>CAT</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="55" parent="5">
+      <ColNames>RULE_FORM_ID</ColNames>
+      <RefTableName>FORM</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="56" parent="5">
+      <ColNames>FROM_FORM_ID</ColNames>
+      <RefTableName>FORM</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="57" parent="5">
+      <ColNames>STEM_FORM_ID</ColNames>
+      <RefTableName>FORM</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="58" parent="5">
+      <ColNames>ENTRYTYPE_ID</ColNames>
+      <RefTableName>TYPE</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="59" parent="6" name="ENTRY_ID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="6" name="DOC_ID">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="6" name="ORDERING">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="62" parent="6">
+      <ColNames>ENTRY_ID</ColNames>
+      <RefTableName>ENTRY</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="63" parent="6">
+      <ColNames>DOC_ID</ColNames>
+      <RefTableName>DOC</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="64" parent="7" name="LINKED_ID">
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="65" parent="7" name="REF_ID">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="66" parent="7" name="SOURCE_ID">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="7" name="FORM_ID">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="7" name="ORDERING">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="69" parent="7" name="EXAMPLETYPE_ID">
+      <Position>5</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <foreign-key id="70" parent="7">
+      <ColNames>LINKED_ID</ColNames>
+      <RefTableName>LINKED</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="71" parent="7">
+      <ColNames>REF_ID</ColNames>
+      <RefTableName>REF</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="72" parent="7">
+      <ColNames>SOURCE_ID</ColNames>
+      <RefTableName>SOURCE</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="73" parent="7">
+      <ColNames>FORM_ID</ColNames>
+      <RefTableName>FORM</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="74" parent="7">
+      <ColNames>EXAMPLETYPE_ID</ColNames>
+      <RefTableName>TYPE</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="75" parent="8" name="ID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="76" parent="8" name="TXT">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="77" parent="8">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="78" parent="9" name="ID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="79" parent="9" name="LANGUAGE_ID">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="9" name="TXT">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="81" parent="9">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="82" parent="9">
+      <ColNames>LANGUAGE_ID</ColNames>
+      <RefTableName>LANGUAGE</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="83" parent="10" name="ID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="10" name="TXT">
+      <Position>1</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="85" parent="10" name="GRAMMARTYPE_ID">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="86" parent="10">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="87" parent="10">
+      <ColNames>GRAMMARTYPE_ID</ColNames>
+      <RefTableName>TYPE</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="88" parent="11" name="ID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="89" parent="11" name="NAME">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="90" parent="11" name="MNEMONIC">
+      <Position>2</Position>
+      <DataType>varchar(10)|0</DataType>
+    </column>
+    <column id="91" parent="11" name="PARENT_ID">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <key id="92" parent="11">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="93" parent="11">
+      <ColNames>PARENT_ID</ColNames>
+      <RefTableName>LANGUAGE</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="94" parent="12" name="LANGUAGE_ID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="12" name="DOC_ID">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="12" name="ORDERING">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="97" parent="12" name="sqlite_autoindex_LANGUAGE_DOC_1">
+      <ColNames>LANGUAGE_ID
+DOC_ID
+ORDERING</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="98" parent="12">
+      <ColNames>LANGUAGE_ID
+DOC_ID
+ORDERING</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_LANGUAGE_DOC_1</UnderlyingIndexName>
+    </key>
+    <foreign-key id="99" parent="12">
+      <ColNames>LANGUAGE_ID</ColNames>
+      <RefTableName>LANGUAGE</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="100" parent="12">
+      <ColNames>DOC_ID</ColNames>
+      <RefTableName>DOC</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="101" parent="13" name="ID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="102" parent="13" name="LINKEDTYPE_ID">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="103" parent="13" name="ENTRY_ID">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="104" parent="13" name="REF_ID">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="105" parent="13" name="TO_LANGUAGE_ID">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="106" parent="13" name="TO_ENTRY_ID">
+      <Position>5</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="107" parent="13" name="ORDERING">
+      <Position>6</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="108" parent="13" name="SOURCE_ID">
+      <Position>7</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="109" parent="13" name="MARK">
+      <Position>8</Position>
+      <DataType>varchar(10)|0</DataType>
+    </column>
+    <key id="110" parent="13">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="111" parent="13">
+      <ColNames>LINKEDTYPE_ID</ColNames>
+      <RefTableName>TYPE</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="112" parent="13">
+      <ColNames>ENTRY_ID</ColNames>
+      <RefTableName>ENTRY</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="113" parent="13">
+      <ColNames>REF_ID</ColNames>
+      <RefTableName>REF</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="114" parent="13">
+      <ColNames>TO_LANGUAGE_ID</ColNames>
+      <RefTableName>LANGUAGE</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="115" parent="13">
+      <ColNames>TO_ENTRY_ID</ColNames>
+      <RefTableName>ENTRY</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="116" parent="13">
+      <ColNames>SOURCE_ID</ColNames>
+      <RefTableName>SOURCE</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="117" parent="14" name="LINKED_ID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="118" parent="14" name="FORM_ID">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="119" parent="14" name="ORDERING">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="120" parent="14">
+      <ColNames>LINKED_ID</ColNames>
+      <RefTableName>LINKED</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="121" parent="14">
+      <ColNames>FORM_ID</ColNames>
+      <RefTableName>FORM</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="122" parent="15" name="LINKED_ID">
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="123" parent="15" name="ENTRY_ID">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="124" parent="15" name="GRAMMAR_ID">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="125" parent="15" name="ORDERING">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="126" parent="15">
+      <ColNames>LINKED_ID</ColNames>
+      <RefTableName>LINKED</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="127" parent="15">
+      <ColNames>ENTRY_ID</ColNames>
+      <RefTableName>ENTRY</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="128" parent="15">
+      <ColNames>GRAMMAR_ID</ColNames>
+      <RefTableName>GRAMMAR</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="129" parent="16" name="ID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="130" parent="16" name="ENTRY_ID">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="131" parent="16" name="FORM_ID">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="132" parent="16" name="GLOSS_ID">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="133" parent="16" name="LANGUAGE_ID">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="134" parent="16" name="SOURCE_ID">
+      <Position>5</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="135" parent="16" name="MARK">
+      <Position>6</Position>
+      <DataType>varchar(10)|0</DataType>
+    </column>
+    <column id="136" parent="16" name="RULE_FROMFORM_ID">
+      <Position>7</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="137" parent="16" name="RULE_RLFORM_ID">
+      <Position>8</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="138" parent="16" name="RULE_RULEFORM_ID">
+      <Position>9</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="139" parent="16" name="ORDERING">
+      <Position>10</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="140" parent="16" name="ENTRYTYPE_ID">
+      <Position>11</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <key id="141" parent="16">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="142" parent="16">
+      <ColNames>ENTRY_ID</ColNames>
+      <RefTableName>ENTRY</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="143" parent="16">
+      <ColNames>FORM_ID</ColNames>
+      <RefTableName>FORM</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="144" parent="16">
+      <ColNames>GLOSS_ID</ColNames>
+      <RefTableName>GLOSS</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="145" parent="16">
+      <ColNames>LANGUAGE_ID</ColNames>
+      <RefTableName>LANGUAGE</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="146" parent="16">
+      <ColNames>RULE_FROMFORM_ID</ColNames>
+      <RefTableName>FORM</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="147" parent="16">
+      <ColNames>RULE_RLFORM_ID</ColNames>
+      <RefTableName>FORM</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="148" parent="16">
+      <ColNames>RULE_RULEFORM_ID</ColNames>
+      <RefTableName>FORM</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="149" parent="16">
+      <ColNames>ENTRYTYPE_ID</ColNames>
+      <RefTableName>TYPE</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="150" parent="17" name="ID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="151" parent="17" name="ENTRY_ID">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="152" parent="17" name="FROM_FORM_ID">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="153" parent="17" name="RULE_FORM_ID">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="154" parent="17" name="LANGUAGE_ID">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="155" parent="17" name="ORDERING">
+      <Position>5</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="156" parent="17">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="157" parent="17">
+      <ColNames>ENTRY_ID</ColNames>
+      <RefTableName>ENTRY</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="158" parent="17">
+      <ColNames>FROM_FORM_ID</ColNames>
+      <RefTableName>FORM</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="159" parent="17">
+      <ColNames>RULE_FORM_ID</ColNames>
+      <RefTableName>FORM</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="160" parent="17">
+      <ColNames>LANGUAGE_ID</ColNames>
+      <RefTableName>LANGUAGE</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="161" parent="18" name="DERIV_ID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="162" parent="18" name="FROM_FORM_ID">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="163" parent="18" name="LANGUAGE_ID">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="164" parent="18" name="RULE_FORM_ID">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="165" parent="18" name="STAGE_FORM_ID">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="166" parent="18" name="TO_ENTRY_ID">
+      <Position>5</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="167" parent="18" name="ORDERING">
+      <Position>6</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <foreign-key id="168" parent="18">
+      <ColNames>DERIV_ID</ColNames>
+      <RefTableName>LINKED</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="169" parent="18">
+      <ColNames>FROM_FORM_ID</ColNames>
+      <RefTableName>FORM</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="170" parent="18">
+      <ColNames>LANGUAGE_ID</ColNames>
+      <RefTableName>LANGUAGE</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="171" parent="18">
+      <ColNames>RULE_FORM_ID</ColNames>
+      <RefTableName>FORM</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="172" parent="18">
+      <ColNames>STAGE_FORM_ID</ColNames>
+      <RefTableName>FORM</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="173" parent="18">
+      <ColNames>TO_ENTRY_ID</ColNames>
+      <RefTableName>ENTRY</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="174" parent="19" name="ID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="175" parent="19" name="NAME">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="176" parent="19" name="PREFIX">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="177" parent="19" name="SOURCETYPE_ID">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <key id="178" parent="19">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="179" parent="19">
+      <ColNames>SOURCETYPE_ID</ColNames>
+      <RefTableName>TYPE</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="180" parent="20" name="SOURCE_ID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="181" parent="20" name="DOC_ID">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="182" parent="20" name="ORDERING">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="183" parent="20" name="sqlite_autoindex_SOURCE_DOC_1">
+      <ColNames>SOURCE_ID
+DOC_ID
+ORDERING</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="184" parent="20">
+      <ColNames>SOURCE_ID
+DOC_ID
+ORDERING</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_SOURCE_DOC_1</UnderlyingIndexName>
+    </key>
+    <foreign-key id="185" parent="20">
+      <ColNames>DOC_ID</ColNames>
+      <RefTableName>DOC</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="186" parent="21" name="ID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="187" parent="21" name="TXT">
+      <Position>1</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="188" parent="21" name="PARENT_ID">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <key id="189" parent="21">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="190" parent="21">
+      <ColNames>PARENT_ID</ColNames>
+      <RefTableName>TYPE</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="191" parent="22" name="type">
+      <DataType>text|0</DataType>
+    </column>
+    <column id="192" parent="22" name="name">
+      <Position>1</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="193" parent="22" name="tbl_name">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="194" parent="22" name="rootpage">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="195" parent="22" name="sql">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="196" parent="23" name="id">
+      <DataType>INTEGER|0</DataType>
+    </column>
+    <column id="197" parent="23" name="firstname">
+      <Position>1</Position>
+      <DataType>VARCHAR(60)|0</DataType>
+    </column>
+    <column id="198" parent="23" name="lastname">
+      <Position>2</Position>
+      <DataType>VARCHAR(60)|0</DataType>
+    </column>
+    <key id="199" parent="23">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
