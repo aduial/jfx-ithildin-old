@@ -22,7 +22,7 @@ TODO for the Omentielva (Roman's presentation):
 
 -- functionality to import such private entries received from others
 
--- <open for suggestions>
+-- open for suggestions ...
 
 
 If you want to build this project:
