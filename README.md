@@ -9,13 +9,25 @@ TODO for the Omentielva (Roman's presentation):
 
 - when the user picks a certain entry, retrieve and display additional information about that entry (1) 
 - create one or more (probably mocked-up) screens to illustrate how we think the application could also be used to:
+
 -- admin functions for the (curated) central reference database: edit the data, add new entries or correct existing ones (2); 
+
 -- functionality to synchronise the user's database with the central reference database; 
+
 -- functionality to upload suggestions to the central reference database (to be reviewed before adding);
+
 -- for the local user to add their own private entries (reconstructions etc.); 
+
 -- functionality to export / share such private entries with other users;
+
 -- functionality to import such private entries received from others
+
 -- <open for suggestions>
+
+
+If you want to build this project:
+though there's still an .idea subdirectory in here, I switched to using Netbeans because Intellij is payed software for which I happen to have a license, but not everyone does, while Netbeans is free. 
+If you issue a "clean and build" command, the libraries are packaged in the jar file, but the eldamo.sqlite database file is not, because that would render it impossibe to write to it. To distribite the application, put a copy of the eldamo.sqlite file in the same directory as the Ithildin.jar file, that should work fine. 
 
 If you want to join this development let me know via the Skype discussion group or on the Languages of Middle-Earth group.
 
