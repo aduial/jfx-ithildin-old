@@ -17,7 +17,7 @@ import javax.persistence.ManyToOne;
 @Entity
 public class Simplexicon {
 
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 98798734343L;
     private final IntegerProperty id = new SimpleIntegerProperty();
     private final StringProperty mark = new SimpleStringProperty();
     private final StringProperty form = new SimpleStringProperty();
@@ -26,6 +26,7 @@ public class Simplexicon {
     private final StringProperty stem = new SimpleStringProperty();
     private final StringProperty languagename = new SimpleStringProperty();
     private final ObjectProperty<Language> language = new SimpleObjectProperty<>();
+    private final IntegerProperty entrytypeId = new SimpleIntegerProperty();
 
     @Id
     public int getId() {
@@ -125,6 +126,18 @@ public class Simplexicon {
 
     public ObjectProperty<Language> languageProperty() {
         return language;
+    }
+    
+    public int getEntrytypeId() {
+      return entrytypeId.get();
+    }
+
+    public void setEntrytypeId(int value) {
+      entrytypeId.set(value);
+    }
+
+    public IntegerProperty entrytypeIdProperty() {
+        return entrytypeId;
     }
   
   

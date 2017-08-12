@@ -1,7 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/Cat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/ChangeView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/ClassView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/CognateView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/CorrectionView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/DerivView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/DerivViewDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/ElementView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/Entry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/EntryNoteView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/Form.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/FormDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/Gloss.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/GlossDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/Grammar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/InflectView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/Lexicon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/LexiconDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/LinkedGrammar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/Ref.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/RefDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/RefinflectDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/RefinflectView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/RelatedView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/Source.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/SourceDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/Type.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/Main.class" afterPath="$PROJECT_DIR$/build/classes/aduial/ithildin/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/controller/RootLayoutController.class" afterPath="$PROJECT_DIR$/build/classes/aduial/ithildin/controller/RootLayoutController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/controller/SimplexiconController$1.class" afterPath="$PROJECT_DIR$/build/classes/aduial/ithildin/controller/SimplexiconController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/controller/SimplexiconController.class" afterPath="$PROJECT_DIR$/build/classes/aduial/ithildin/controller/SimplexiconController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/model/Language.class" afterPath="$PROJECT_DIR$/build/classes/aduial/ithildin/model/Language.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/model/Simplexicon.class" afterPath="$PROJECT_DIR$/build/classes/aduial/ithildin/model/Simplexicon.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/model/SimplexiconDAO.class" afterPath="$PROJECT_DIR$/build/classes/aduial/ithildin/model/SimplexiconDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/util/DBUtil.class" afterPath="$PROJECT_DIR$/build/classes/aduial/ithildin/util/DBUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/Ithildin-dist.jar" afterPath="$PROJECT_DIR$/dist/Ithildin-dist.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/Ithildin.jar" afterPath="$PROJECT_DIR$/dist/Ithildin.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eldamo.sqlite" afterPath="$PROJECT_DIR$/eldamo.sqlite" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/built-jar.properties" afterPath="$PROJECT_DIR$/build/built-jar.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/view/RootLayout.fxml" afterPath="$PROJECT_DIR$/build/classes/aduial/ithildin/view/RootLayout.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/view/SimplexiconView.fxml" afterPath="$PROJECT_DIR$/build/classes/aduial/ithildin/view/SimplexiconView.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/Ithildin.html" afterPath="$PROJECT_DIR$/dist/Ithildin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/Ithildin.jnlp" afterPath="$PROJECT_DIR$/dist/Ithildin.jnlp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" afterPath="$PROJECT_DIR$/nbproject/build-impl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" afterPath="$PROJECT_DIR$/nbproject/genfiles.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/private/retriever/catalog.xml" afterPath="$PROJECT_DIR$/nbproject/private/retriever/catalog.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/private/retriever/www.oracle.com/technetwork/java/javase/overview/index.html" afterPath="$PROJECT_DIR$/nbproject/private/retriever/www.oracle.com/technetwork/java/javase/overview/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/project.properties" afterPath="$PROJECT_DIR$/nbproject/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/project.xml" afterPath="$PROJECT_DIR$/nbproject/project.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/aduial/ithildin/Main.java" afterPath="$PROJECT_DIR$/src/aduial/ithildin/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/aduial/ithildin/controller/RootLayoutController.java" afterPath="$PROJECT_DIR$/src/aduial/ithildin/controller/RootLayoutController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/aduial/ithildin/controller/SimplexiconController.java" afterPath="$PROJECT_DIR$/src/aduial/ithildin/controller/SimplexiconController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/Language.java" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/Language.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/Simplexicon.java" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/Simplexicon.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/SimplexiconDAO.java" afterPath="$PROJECT_DIR$/src/aduial/ithildin/model/SimplexiconDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/aduial/ithildin/util/DBUtil.java" afterPath="$PROJECT_DIR$/src/aduial/ithildin/util/DBUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/aduial/ithildin/view/RootLayout.fxml" afterPath="$PROJECT_DIR$/src/aduial/ithildin/view/RootLayout.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/aduial/ithildin/view/SimplexiconView.fxml" afterPath="$PROJECT_DIR$/src/aduial/ithildin/view/SimplexiconView.fxml" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -113,10 +175,10 @@
       <file leaf-file-name="DBUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/util/DBUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="120">
+              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <marker date="1501256713000" expanded="true" signature="2234:2663" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -157,8 +219,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="61" lean-forward="false" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+            <state relative-caret-position="210">
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -167,28 +229,24 @@
       <file leaf-file-name="RootLayoutController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/controller/RootLayoutController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="72" lean-forward="false" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="345">
+              <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.CAT" pinned="false" current-in-tab="false">
         <entry file="dbDummy://dbtable:/3b471c9/9d9a956f-73ab-4915-8e25-fb7fb43897fc/main.CAT">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
           <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -196,10 +254,11 @@
       <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/model/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+            <state relative-caret-position="1590">
+              <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="false" />
+                <marker date="1499468580000" expanded="true" signature="3691:3906" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -207,15 +266,15 @@
       </file>
       <file leaf-file-name="main.user" pinned="false" current-in-tab="false">
         <entry file="dbDummy://dbtable:/3b471c9/9d9a956f-73ab-4915-8e25-fb7fb43897fc/main.user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
           <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -236,26 +295,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -270,6 +309,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -296,11 +338,12 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
-    <option name="y" value="23" />
+    <option name="x" value="42" />
+    <option name="y" value="328" />
     <option name="width" value="1440" />
     <option name="height" value="850" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -319,8 +362,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -340,6 +383,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ithildin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ithildin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ithildin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,23 +462,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ithildin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ithildin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -863,31 +906,33 @@
       <workItem from="1498482685591" duration="10630000" />
       <workItem from="1499082182928" duration="672000" />
       <workItem from="1499082926567" duration="2213000" />
+      <workItem from="1502097039348" duration="249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14817000" />
+    <option name="totallyTimeSpent" value="15066000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="23" width="1440" height="850" extended-state="0" />
+    <frame x="42" y="328" width="1440" height="850" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19742489" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19742489" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -923,14 +968,135 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/util/DBUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <marker date="1501256713000" expanded="true" signature="2234:2663" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#638#639#0" expanded="false" />
+            <element signature="e#669#670#0" expanded="false" />
+            <element signature="e#712#713#0" expanded="false" />
+            <element signature="e#737#738#0" expanded="false" />
+            <element signature="e#770#771#0" expanded="false" />
+            <element signature="e#801#802#0" expanded="false" />
+            <element signature="e#837#838#0" expanded="false" />
+            <element signature="e#875#876#0" expanded="false" />
+            <element signature="e#924#925#0" expanded="false" />
+            <element signature="e#956#957#0" expanded="false" />
+            <element signature="e#1006#1007#0" expanded="false" />
+            <element signature="e#1051#1052#0" expanded="false" />
+            <element signature="e#1086#1087#0" expanded="false" />
+            <element signature="e#1123#1124#0" expanded="false" />
+            <element signature="e#1171#1172#0" expanded="false" />
+            <element signature="e#1202#1203#0" expanded="false" />
+            <element signature="e#1250#1251#0" expanded="false" />
+            <element signature="e#1293#1294#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/view/RootLayout.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="61" lean-forward="false" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/3b471c9/9d9a956f-73ab-4915-8e25-fb7fb43897fc/main.CAT">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/model/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1499468580000" expanded="true" signature="3691:3906" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/3b471c9/9d9a956f-73ab-4915-8e25-fb7fb43897fc/main.user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/SQLiteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="71" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="71" />
+          <folding>
+            <marker date="1499030429000" expanded="true" signature="467:503" ph="select fname... user" />
+            <marker date="1499030429000" expanded="true" signature="1119:1184" ph="SELECT name sqlite_master" />
+            <marker date="1499030429000" expanded="true" signature="1447:1568" ph="create table... user" />
+            <marker date="1499030429000" expanded="true" signature="1683:1713" ph="insert into user... " />
+            <marker date="1499030429000" expanded="true" signature="1909:1939" ph="insert into user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/controller/RootLayoutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="72" lean-forward="false" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#556#557#0" expanded="false" />
-            <element signature="e#584#585#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -940,7 +1106,7 @@
         <state relative-caret-position="90">
           <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <marker date="1501256713000" expanded="true" signature="2234:2663" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -989,20 +1155,21 @@
           <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
+            <marker date="1499468580000" expanded="true" signature="3691:3906" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/3b471c9/9d9a956f-73ab-4915-8e25-fb7fb43897fc/main.user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1040,11 +1207,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="28" column="79" lean-forward="false" selection-start-line="28" selection-start-column="79" selection-end-line="28" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,8 +1217,6 @@
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#556#557#0" expanded="false" />
-            <element signature="e#584#585#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1065,7 +1226,7 @@
         <state relative-caret-position="90">
           <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <marker date="1501256713000" expanded="true" signature="2234:2663" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1114,20 +1275,21 @@
           <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
+            <marker date="1499468580000" expanded="true" signature="3691:3906" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/3b471c9/9d9a956f-73ab-4915-8e25-fb7fb43897fc/main.user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1165,11 +1327,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1179,8 +1337,6 @@
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#556#557#0" expanded="false" />
-            <element signature="e#584#585#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1192,7 +1348,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1211,7 +1366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1257,8 +1411,6 @@
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#556#557#0" expanded="false" />
-            <element signature="e#584#585#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1294,34 +1446,35 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/3b471c9/9d9a956f-73ab-4915-8e25-fb7fb43897fc/main.user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/util/DBUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="120">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <marker date="1501256713000" expanded="true" signature="2234:2663" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/model/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+        <state relative-caret-position="1590">
+          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
+            <marker date="1499468580000" expanded="true" signature="3691:3906" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1358,34 +1511,30 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="61" lean-forward="false" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+        <state relative-caret-position="210">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/3b471c9/9d9a956f-73ab-4915-8e25-fb7fb43897fc/main.CAT">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/controller/RootLayoutController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="72" lean-forward="false" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>

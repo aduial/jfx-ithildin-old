@@ -1,6 +1,7 @@
 package aduial.ithildin.util;
 
-import com.sun.rowset.CachedRowSetImpl;
+import javax.sql.rowset.RowSetProvider;
+import javax.sql.rowset.CachedRowSet;
 import java.sql.*;
 
 /**
@@ -46,14 +47,15 @@ public class DBUtil {
     public static ResultSet dbExecuteQuery(String queryStmt) throws SQLException, ClassNotFoundException {
         Statement stmt = null;
         ResultSet resultSet = null;
-        CachedRowSetImpl crs = null;
+        CachedRowSet crs = RowSetProvider.newFactory().createCachedRowSet();
         try {
             dbConnect();
             System.out.println("Select statement: " + queryStmt + "\n");
             stmt = conn.createStatement();
             resultSet = stmt.executeQuery(queryStmt);
-            crs = new CachedRowSetImpl();
             crs.populate(resultSet);
+
+//            crs.populate(resultSet);
         } catch (SQLException e) {
             System.out.println("ExecuteQuery method throw exception: " + e);
             throw e;

@@ -11,6 +11,7 @@ import java.sql.SQLException;
  * Created by luthien on 02/07/2017.
  */
 public class SimplexiconDAO {
+    
     public static ObservableList<Simplexicon> searchByForm (String term, Integer langId) throws 
             SQLException, ClassNotFoundException {
         String selectStmt = "SELECT * FROM simplexicon WHERE form like '%" +
@@ -26,6 +27,7 @@ public class SimplexiconDAO {
             throw e;
         }
     }
+    
     public static ObservableList<Simplexicon> searchByGloss (String term, Integer langId) throws 
             SQLException, ClassNotFoundException {
         String selectStmt = "SELECT * FROM simplexicon WHERE gloss like '%" +
@@ -55,6 +57,7 @@ public class SimplexiconDAO {
             simplexicon.setMark(rs.getString("mark"));
             simplexicon.setStem(rs.getString("stem"));
             simplexicon.setLanguagename(rs.getString("languagename"));
+            simplexicon.setEntrytypeId(rs.getInt("entrytype_id"));
         }
         return simplexicon;
     }
@@ -72,7 +75,7 @@ public class SimplexiconDAO {
         }
         return languageList;
     }
-
+    
     private static ObservableList<Simplexicon> getSimplexiconList(ResultSet rs) throws SQLException, ClassNotFoundException {
         ObservableList<Simplexicon> simplexiconList = FXCollections.observableArrayList();
         Simplexicon simplexicon = null;
@@ -84,6 +87,7 @@ public class SimplexiconDAO {
             simplexicon.setCat(rs.getString("cat"));
             simplexicon.setMark(rs.getString("mark"));
             simplexicon.setStem(rs.getString("stem"));
+            simplexicon.setEntrytypeId(rs.getInt("entrytype_id"));
             simplexiconList.add(simplexicon);
         }
         return simplexiconList;

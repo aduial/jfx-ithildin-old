@@ -5,7 +5,6 @@
  */
 package aduial.ithildin.model;
 
-import java.beans.PropertyChangeSupport;
 import javafx.beans.property.*;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -19,7 +18,7 @@ import javax.persistence.ManyToOne;
 @Entity
 public class Language {
   
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 33984729384L;
 
     private final IntegerProperty id = new SimpleIntegerProperty();
     private final StringProperty name = new SimpleStringProperty();
