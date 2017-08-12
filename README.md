@@ -1,16 +1,30 @@
 # ithildin
-Front-end JavaFX application for the Eldamo database
+Front-end JavaFX application for the Eldamo database (1)
 
-This first demo version consists of only one simple screen that searches a view named "simplexicon" created on FORM, GLOSS, 
-LANGUAGE and CATEGORY. It searches on either the FORM or GLOSS for a given LANGUAGE; there's a dropdown list in the form to choose 
-a language.
+UPDATE dd. Aug 12, 2017
 
-TODO for the Omentielva (Roman's presentation): 
+The application can search the word forms of all of the Tolkienian languages available in Eldamo OR in the English glosses.
 
-- when the user picks a certain entry, retrieve and display additional information about that entry (1) 
-- create one or more (probably mocked-up) screens to illustrate how we think the application could also be used to:
+(Partial) matches are displayed in the table under the search field, with both the form and the gloss.
 
--- admin functions for the (curated) central reference database: edit the data, add new entries or correct existing ones (2); 
+Entries marked as private constructions are shown in green.
+
+When a row in the match table is clicked, the detailed data associated with that particular word entry are fetched from the database and displayed in the area to the right. 
+
+By défault only the headline (language indicator, form, speech & gloss) are displayed plus the Glosses block. With the toggle buttons below, the visibility of all these blocks can be controlled : 
+
+* References
+* Glosses
+* Derivations
+* Inflections
+* Elements
+* Cognates
+
+_(the Variations, Related and Changes blocks are still TBD)_
+
+- In the menu, under Edit => Edit / Manage Dataset is a mocked-up screen to illustrate how we think the application could also be used to:
+
+-- administer the (curated) central reference database: edit the data, add new entries or correct existing ones (2); 
 
 -- functionality to synchronise the user's database with the central reference database; 
 
@@ -22,12 +36,16 @@ TODO for the Omentielva (Roman's presentation):
 
 -- functionality to import such private entries received from others
 
--- open for suggestions ...
+-- etc (open for suggestions ...)
 
 
 If you want to build this project:
 though there's still an .idea subdirectory in here, I switched to using Netbeans because Intellij is payed software for which I happen to have a license, but not everyone does, while Netbeans is free. 
-If you issue a "clean and build" command, the libraries are packaged in the jar file, but the eldamo.sqlite database file is not, because that would render it impossibe to write to it. To distribite the application, put a copy of the eldamo.sqlite file in the same directory as the Ithildin.jar file, that should work fine. 
+
+If you issue a "clean and build" command, the libraries are packaged in the _Ithildin-dist.jar_ under the dist directory. 
+The _eldamo.sqlite_ database file is not packaged in there because that would render it impossibe to write to it. To distribite the application, put a copy of the _eldamo.sqlite_ file together with the _Ithildin-dist.jar_ the same directory as the Ithildin.jar file; open your command line / terminal program, navigate to that directory and enter
+
+*java -jar Ithildin-dist.jar*
 
 If you want to join this development let me know via the Skype discussion group or on the Languages of Middle-Earth group.
 
@@ -36,11 +54,7 @@ Enjoy!
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 
-(1) this should be similar to how the entries are displayed on Eldamo.org, but not as extensive. 
-This application serves a different goal as the corresponding Eldamo page (e.g. as an aid in writing poetry). 
-We can, however, display a link to that page as a referral, because the Eldamo page id is available in the database. 
-
-(2) it is not clear at this point how to implement this central database, or whom should curate this. The easiest possibility 
+(1) it is not clear at this point how to implement this central database, or whom should curate this. The easiest possibility 
 would be to stick to the Eldamo data set and keep using that as the reference set, but possibly people should want to fork it
 and create a separate central database. It's not clear at this point what everybody wants, or what even would be doable. 
 Suggestions are more than welcome here as well, and it's probably best to discuss this on the Languages of Middle-Earth Google 
