@@ -1,0 +1,11 @@
+#IntelliJ project files
+.idea
+*.iml
+
+# Maven & Netbeans build directories
+*/target/**
+build/**
+
+# Temp files
+*~
+*.bak
