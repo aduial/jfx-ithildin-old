@@ -2,22 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/Users/luthien/git/aduial/ithildin/src/aduial/ithildin/Main.java</file>
-            <file>file:/Users/luthien/git/aduial/ithildin/src/aduial/ithildin/model/RefelementDAO.java</file>
-            <file>file:/Users/luthien/git/aduial/ithildin/src/aduial/ithildin/util/DBUtil.java</file>
-            <file>file:/Users/luthien/git/aduial/ithildin/src/aduial/ithildin/model/RefderivDAO.java</file>
-            <file>file:/Users/luthien/git/aduial/ithildin/src/aduial/ithildin/model/RefcognateDAO.java</file>
-            <file>file:/Users/luthien/git/aduial/ithildin/src/aduial/ithildin/model/RefelementView.java</file>
-            <file>file:/Users/luthien/git/aduial/ithildin/src/aduial/ithildin/model/RefcognateView.java</file>
-            <file>file:/Users/luthien/git/aduial/ithildin/src/aduial/ithildin/controller/IthildinController.java</file>
-            <file>file:/Users/luthien/git/aduial/ithildin/src/aduial/ithildin/model/RefderivView.java</file>
-            <file>file:/Users/luthien/git/aduial/ithildin/src/aduial/ithildin/model/LexiconDAO.java</file>
-            <file>file:/Users/luthien/git/aduial/ithildin/src/aduial/ithildin/view/LexiconPage.java</file>
-            <file>file:/Users/luthien/git/aduial/ithildin/src/aduial/ithildin/view/SearchView.fxml</file>
-            <file>file:/Users/luthien/git/aduial/ithildin/src/aduial/ithildin/model/RefDAO.java</file>
-            <file>file:/Users/luthien/git/aduial/ithildin/src/aduial/ithildin/model/RefinflectView.java</file>
-            <file>file:/Users/luthien/git/aduial/ithildin/src/aduial/ithildin/view/SearchView.css</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
