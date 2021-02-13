@@ -1,28 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/nbproject/jfx-impl_backup.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/359e1a58-739a-429c-82c8-a10aa39374cc/_metadata_/metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/359e1a58-739a-429c-82c8-a10aa39374cc/_metadata_/metadata.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/359e1a58-739a-429c-82c8-a10aa39374cc/_metadata_/metadata.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/359e1a58-739a-429c-82c8-a10aa39374cc/_metadata_/metadata.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/359e1a58-739a-429c-82c8-a10aa39374cc/_metadata_/metadata.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/359e1a58-739a-429c-82c8-a10aa39374cc/_metadata_/metadata_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/359e1a58-739a-429c-82c8-a10aa39374cc/_metadata_/metadata_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aduial/ithildin/IthildinFxWeaverBootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aduial/ithildin/application/PrimaryStageInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aduial/ithildin/application/StageReadyEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aduial/ithildin/controller/Athrabeth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aduial/ithildin/controller/Henneth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/built-jar.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/SQLiteTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/controller/RootLayoutController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/controller/SimplexiconController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/controller/SimplexiconController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/controller/UserController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/model/Language.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/model/Simplexicon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/model/SimplexiconDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/model/UserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/util/DBUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/view/RootLayout.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/view/SimplexiconView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/aduial/ithildin/view/UserView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Ithildin-dist.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Ithildin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Ithildin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Ithildin.jnlp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/eclipselink.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/javax.persistence_2.1.0.v201304241213.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/sqlite-jdbc-3.19.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/web-files/dtjava.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/web-files/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/web-files/get_java.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/web-files/get_javafx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/web-files/javafx-chrome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/web-files/javafx-loading-100x100.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/web-files/javafx-loading-25x25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/web-files/upgrade_java.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/web-files/upgrade_javafx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eldamo.sqlite" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ithildin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ithildin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/nblibraries.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lib/nblibraries.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/build-impl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/genfiles.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/jfx-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/jfx-impl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/eclipselink/eclipselink.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/eclipselink/javax.persistence-2.1.0-doc.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/eclipselink/javax.persistence_2.1.0.v201304241213.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/eclipselink/org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/eclipselinkmodelgen/org.eclipse.persistence.jpa.modelgen_2.5.2.v20140319-9ad6abd.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit_4/junit-4.12-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit_4/junit-4.12-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit_4/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/sqlite-jdbc-3.19.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/configs/Run_as_WebStart.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/configs/Run_in_Browser.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/jfx-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/jfx-impl_backup.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/configs/Run_as_WebStart.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/configs/Run_in_Browser.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/retriever/catalog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/retriever/www.oracle.com/technetwork/java/javase/overview/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ithildin/aduial/ithildin/util/DBUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/SQLiteTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/controller/EditController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/controller/IthildinController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/controller/RootLayoutController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/controller/SimplexiconController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/ChangeView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/ClassView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/CognateView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/CorrectionView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/DerivView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/DerivViewDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/ElementView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/Entry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/EntryNoteView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/Form.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/FormDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/Gloss.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/GlossDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/Grammar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/InflectView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/Language.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/Lexicon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/LexiconDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/LinkedGrammar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/Ref.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/RefDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/RefcognateDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/RefcognateView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/RefderivDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/RefderivView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/RefelementDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/RefelementView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/RefinflectDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/RefinflectView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/RelatedView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/Simplexicon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/SimplexiconDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/Source.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/SourceDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/model/UserDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/util/DBUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/view/EditView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/view/LexiconPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/view/RootLayout.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/view/SearchView.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/view/SearchView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/view/SimplexiconView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aduial/ithildin/view/UserView.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,133 +236,6 @@
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DBUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/util/DBUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-              <folding>
-                <marker date="1501256713000" expanded="true" signature="2234:2663" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding>
-                <element signature="e#638#639#0" expanded="false" />
-                <element signature="e#669#670#0" expanded="false" />
-                <element signature="e#712#713#0" expanded="false" />
-                <element signature="e#737#738#0" expanded="false" />
-                <element signature="e#770#771#0" expanded="false" />
-                <element signature="e#801#802#0" expanded="false" />
-                <element signature="e#837#838#0" expanded="false" />
-                <element signature="e#875#876#0" expanded="false" />
-                <element signature="e#924#925#0" expanded="false" />
-                <element signature="e#956#957#0" expanded="false" />
-                <element signature="e#1006#1007#0" expanded="false" />
-                <element signature="e#1051#1052#0" expanded="false" />
-                <element signature="e#1086#1087#0" expanded="false" />
-                <element signature="e#1123#1124#0" expanded="false" />
-                <element signature="e#1171#1172#0" expanded="false" />
-                <element signature="e#1202#1203#0" expanded="false" />
-                <element signature="e#1250#1251#0" expanded="false" />
-                <element signature="e#1293#1294#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RootLayout.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/view/RootLayout.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RootLayoutController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/controller/RootLayoutController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.CAT" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/3b471c9/9d9a956f-73ab-4915-8e25-fb7fb43897fc/main.CAT">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/model/UserDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1590">
-              <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <marker date="1499468580000" expanded="true" signature="3691:3906" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.user" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/3b471c9/9d9a956f-73ab-4915-8e25-fb7fb43897fc/main.user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SQLiteTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aduial/ithildin/SQLiteTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="71" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="71" />
-              <folding>
-                <marker date="1499030429000" expanded="true" signature="467:503" ph="select fname... user" />
-                <marker date="1499030429000" expanded="true" signature="1119:1184" ph="SELECT name sqlite_master" />
-                <marker date="1499030429000" expanded="true" signature="1447:1568" ph="create table... user" />
-                <marker date="1499030429000" expanded="true" signature="1683:1713" ph="insert into user... " />
-                <marker date="1499030429000" expanded="true" signature="1909:1939" ph="insert into user... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -298,7 +283,9 @@
     <option name="height" value="850" />
   </component>
   <component name="ProjectId" id="1o5BVgiMp4YrAPdGgiOrsVU6Gob" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -428,6 +415,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -435,6 +423,9 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -446,13 +437,13 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.38114342" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module />
       <option name="HTML_USED" value="false" />
@@ -672,15 +663,11 @@
       <method />
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11.0.5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="aduial.ithildin.IthildinFxWeaverBootApplication" />
       <module name="ithildin" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/bin/javafx-sdk-15.0.1/lib --add-modules javafx.controls,javafx.fxml " />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -699,6 +686,19 @@
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ithildin2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -737,6 +737,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IthildinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ithildin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="aduial.ithildin.application.IthildinApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -755,6 +762,10 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Spring Boot.IthildinApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -770,7 +781,11 @@
       <workItem from="1499082926567" duration="2213000" />
       <workItem from="1502097039348" duration="249000" />
       <workItem from="1612566600046" duration="1122000" />
-      <workItem from="1612570342072" duration="137000" />
+      <workItem from="1612570342072" duration="1812000" />
+      <workItem from="1612625472361" duration="18000" />
+      <workItem from="1612625608742" duration="14000" />
+      <workItem from="1612628116944" duration="9542000" />
+      <workItem from="1613174578827" duration="2933000" />
     </task>
     <servers />
   </component>
