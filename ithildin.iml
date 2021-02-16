@@ -35,14 +35,14 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.27" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.hsqldb:hsqldb:2.5.1" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:15" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:mac:15" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:15" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:mac:15" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:15" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:mac:15" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:15" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:mac:15" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:16-ea+7" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:mac:16-ea+7" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:16-ea+7" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:mac:16-ea+7" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:16-ea+7" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:mac:16-ea+7" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:16-ea+7" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:mac:16-ea+7" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:2.4.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:2.4.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:2.4.2" level="project" />

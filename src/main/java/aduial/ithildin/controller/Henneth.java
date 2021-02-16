@@ -7,8 +7,12 @@ import net.rgielen.fxweaver.core.FxControllerAndView;
 import net.rgielen.fxweaver.core.FxmlView;
 import org.springframework.stereotype.Component;
 
+
+/**
+ * sort of MainController / Main window
+ */
 @Component
-@FxmlView
+@FxmlView // equal to: @FxmlView("Henneth.fxml")
 public class Henneth{
 
     private final FxControllerAndView<Athrabeth, VBox> someDialog;

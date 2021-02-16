@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
  * @author Luthien
  * @noinspection WeakerAccess
  */
-@Component
+@Component  // equal to: @FxmlView("Athrabeth.fxml")
 @FxmlView
 public class Athrabeth {
 
