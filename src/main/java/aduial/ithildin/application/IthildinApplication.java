@@ -1,14 +1,12 @@
 package aduial.ithildin.application;
 
-import aduial.ithildin.IthildinFxWeaverBootApplication;
+import aduial.ithildin.IthildinBootApplication;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.stage.Stage;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 
-@SpringBootApplication
 public class IthildinApplication extends Application {
 
     private ConfigurableApplicationContext context;
@@ -16,7 +14,7 @@ public class IthildinApplication extends Application {
     @Override
     public void init() throws Exception {
         this.context = new SpringApplicationBuilder()
-                .sources(IthildinFxWeaverBootApplication.class)
+                .sources(IthildinBootApplication.class)
                 .run(getParameters().getRaw().toArray(new String[0]));
     }
 

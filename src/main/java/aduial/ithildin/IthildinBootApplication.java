@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author Lúthien
  */
 @SpringBootApplication
-public class IthildinFxWeaverBootApplication{
+public class IthildinBootApplication{
 
     public static void main(String[] args) {
         Application.launch(IthildinApplication.class, args);
