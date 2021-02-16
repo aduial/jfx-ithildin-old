@@ -21,7 +21,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ithildin" target="11" />
-      <module name="ithildin2" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
