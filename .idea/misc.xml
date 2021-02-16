@@ -38,6 +38,7 @@
       <property name="caretWidth" class="java.lang.Integer" />
     </properties>
   </component>
+  <component name="FrameworkDetectionExcludesConfiguration" detection-enabled="false" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -50,5 +51,8 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11.0.5" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="UnicodeBrowser">
+    <option name="fontName" value="Menlo" />
   </component>
 </project>

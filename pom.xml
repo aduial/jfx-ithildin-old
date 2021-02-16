@@ -63,7 +63,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.5</version>
                 <configuration>
-                    <mainClass>HelloFX</mainClass>
+                    <mainClass>aduial.ithildin.IthildinBootApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

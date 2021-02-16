@@ -16,7 +16,32 @@
     </content>
     <orderEntry type="jdk" jdkName="11.0.5" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="lib1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.4.2" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.4.2" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.4.2" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.4.2" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:15.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:mac:15.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:15.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:mac:15.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:15.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:mac:15.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:15.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:mac:15.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:2.4.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:2.4.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:2.4.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-core:3.6.28" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.bytebuddy:byte-buddy:1.10.19" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.bytebuddy:byte-buddy-agent:1.10.19" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-junit-jupiter:3.6.28" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:5.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.3" level="project" />
